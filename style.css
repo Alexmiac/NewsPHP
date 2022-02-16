@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+body {
+	padding: 20px;
+	font-size: 15px;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.border {
+	border-bottom-style: dotted;
+	border-bottom-color: rgb(136, 12, 12);
+	border-bottom-width: 2px;
+	margin-bottom: 10px;
+}
+.mainTitle {
+	font-size: 40px;
+	font-weight: 500;
+}
+.listNews {
+	margin-top: 25px;
+}
+.news1 {
+	display: flex;
+}
+.data {
+	background-color: rgb(116, 31, 0);
+	font-size: 13px;
+	color: white;
+	margin-right: 4px;
+	padding: 3px;
+}
+.title {
+	display: inline-block;
+}
+.announce {
+	margin-bottom: 17px;
+}
+.number {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 15px;
+	width: 25px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(228, 228, 228);
+	border: 2px solid rgb(194, 194, 194);
+	margin: 2px;
+}
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+}
+.text {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+a {
+	color: rgb(5, 124, 235);
+}
+.numPages {
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}
+.active {
+	background-color: rgb(116, 31, 0);
+	color: white;
+}
+.colorAllNews {
+	color: rgb(116, 31, 0);
+}
